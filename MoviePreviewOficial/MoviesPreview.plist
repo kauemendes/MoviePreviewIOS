@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>nome</key>
+		<string>Shrek</string>
+		<key>movieURL</key>
+		<string>http://www.flameworks.com.br/fiapfilmes/Shrek.mp4</string>
+		<key>classificacao</key>
+		<string>Livre</string>
+		<key>descricao</key>
+		<string>Com a missão de resgatar uma bela princesa das garras de um dragão que cospe fogo, um adorável ogro se une a um espirituoso burro.</string>
+	</dict>
+	<dict>
+		<key>nome</key>
+		<string>Os Goonies</string>
+		<key>movieURL</key>
+		<string>http://www.flameworks.com.br/fiapfilmes/Goonies.mp4</string>
+		<key>classificacao</key>
+		<string>Livre</string>
+		<key>descricao</key>
+		<string>Um grupo de crianças desajustadas descobre um mapa do tesouro pirata e embarcam em uma jornada em busca de riquezas neste clássico adorado dos anos 80.</string>
+	</dict>
+	<dict>
+		<key>nome</key>
+		<string>Jogos Vorazes</string>
+		<key>movieURL</key>
+		<string>http://www.flameworks.com.br/fiapfilmes/JogosVorazes.mp4</string>
+		<key>classificacao</key>
+		<string>12 Anos</string>
+		<key>descricao</key>
+		<string>Num futuro distante, boa parte da população é controlada por um regime totalitário, que relembra esse domínio realizando um evento anual - e mortal - entre os 12 distritos sob sua tutela. Para salvar sua irmã caçula, a jovem Katniss Everdeen (Jennifer Lawrence) se oferece como voluntária para representar seu distrito na competição e acaba contando , com a companhia de Peeta Melark (Josh Hutcherson), desafiando não só o sistema dominante, mas também a força dos outros oponentes.</string>
+	</dict>
+	<dict>
+		<key>nome</key>
+		<string>Piratas do Caribe</string>
+		<key>movieURL</key>
+		<string>http://www.flameworks.com.br/fiapfilmes/PiratasDoCaribe.mp4</string>
+		<key>classificacao</key>
+		<string>14 Anos</string>
+		<key>descricao</key>
+		<string>Em pleno século XVII, o pirata Jack Sparrow (Johnny Depp) tem seu navio saqueado e roubado pelo capitão Barbossa (Geoffrey Rush) e sua tripulação. Com o navio de Sparrow, Barbossa invade e saqueia a cidade de Port Royal, levando consigo Elizabeth Swann (Keira Knightley), a filha do governador (Jonathan Pryce). Decidido a recuperar sua embarcação, Sparrow recebe a ajuda de Will Turner (Orlando Bloom), um grande amigo de Elizabeth que parte em seu encalço. Porém, o que ambos não sabem é que o Pérola Negra, navio de Barbossa, foi atingido por uma terrível maldição que faz com que eles naveguem eternamente pelos oceanos e se transformem em esqueletos à noite.</string>
+	</dict>
+	<dict>
+		<key>nome</key>
+		<string>Matrix</string>
+		<key>movieURL</key>
+		<string>http://www.flameworks.com.br/fiapfilmes/Matrix.mp4</string>
+		<key>classificacao</key>
+		<string>12 Anos</string>
+		<key>descricao</key>
+		<string>Em um futuro próximo, Thomas Anderson (Keanu Reeves), um jovem programador de computador que mora em um cubículo escuro, é atormentado por estranhos pesadelos nos quais encontra-se conectado por cabos e contra sua vontade, em um imenso sistema de computadores do futuro. Em todas essas ocasiões, acorda gritando no exato momento em que os eletrodos estão para penetrar em seu cérebro. À medida que o sonho se repete, Anderson começa a ter dúvidas sobre a realidade. Por meio do encontro com os misteriosos Morpheus (Laurence Fishburne) e Trinity (Carrie-Anne Moss), Thomas descobre que é, assim como outras pessoas, vítima do Matrix, um sistema inteligente e artificial que manipula a mente das pessoas, criando a ilusão de um mundo real enquanto usa os cérebros e corpos dos indivíduos para produzir energia. Morpheus, entretanto, está convencido de que Thomas é Neo, o aguardado messias capaz de enfrentar o Matrix e conduzir as pessoas de volta à realidade e à liberdade.</string>
+	</dict>
+	<dict>
+		<key>nome</key>
+		<string>Jobs</string>
+		<key>movieURL</key>
+		<string>http://www.flameworks.com.br/fiapfilmes/Jobs.mp4</string>
+		<key>classificacao</key>
+		<string>12 Anos</string>
+		<key>descricao</key>
+		<string>De hippie sem foco nos estudos a líder de uma das maiores empresas de tecnologia do mundo. Este é Steve Jobs (Ashton Kutcher), um sujeito de personalidade forte e dedicado, que não se incomoda de passar por cima dos outros para atingir suas metas, o que faz com que tenha dificuldades em manter relações amorosas e de amizade.</string>
+	</dict>
+</array>
+</plist>

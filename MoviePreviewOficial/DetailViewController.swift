@@ -7,39 +7,72 @@
 //
 
 import UIKit
+import MediaPlayer
 
 class DetailViewController: UIViewController {
 
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
+    var filmes = [String:String]()
+    var player:MPMoviePlayerController?
 
-
-    var detailItem: AnyObject? {
-        didSet {
-            // Update the view.
-            self.configureView()
-        }
-    }
-
-    func configureView() {
-        // Update the user interface for the detail item.
-        if let detail: AnyObject = self.detailItem {
-            if let label = self.detailDescriptionLabel {
-                label.text = detail.description
-            }
-        }
-    }
-
+    @IBOutlet weak var txtDetail: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.configureView()
+        
+        
+        setupScreen()
+        if let url : String? = filmes["movieURL"] {
+            executarVideo(url)
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func executarVideo(url:String?){
+        
+        if url == nil {
+            
+        } else {
+        
+            let videoPath:NSURL = NSURL(string: url!)!
 
+            // Inicializa o player com o video recuperado
+            self.player = MPMoviePlayerController(contentURL: videoPath)
+        
+            // Configura o frame do video
+            self.player!.view.frame = CGRectMake(20, 80, 380, 190)
+        
+            // Adiciona o player a view
+            self.view.addSubview(self.player!.view)
+        
+            // Inicia o video
+            self.player!.play()
+        }
+    }
 
+    
+    func setupScreen() {
+        self.txtDetail.text = filmes["descricao"]
+       
+        UIView.animateWithDuration(1.0, animations: { () -> Void in
+        
+            self.txtDetail.alpha = 1.0
+            
+            self.txtDetail.frame = CGRectMake(
+                self.txtDetail.frame.origin.x,
+                self.txtDetail.frame.origin.y - 50,
+                self.txtDetail.frame.size.width,
+                self.txtDetail.frame.size.height)
+            
+        }) { (completed) -> Void in
+            //...
+        }
+    }
+    
 }
 
